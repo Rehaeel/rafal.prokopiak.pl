@@ -4,5 +4,31 @@
     background: url(../background/sharing-icons-bg.webp) no-repeat fixed;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    gap: 3%;
     width: 100%;
+    padding: 100px 10%;
+    
+}
+/************ TABLET ************/
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+    .realizations {
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 5%;    
+    row-gap: 0;
+    column-gap: 2%;
+}
+
+}
+
+
+/************ MOBILE ************/
+
+@media screen and (max-width: 768px) {
+    .realizations {
+    grid-template-columns: 1fr;
+    padding: 50px 5%;    
+    gap: 0;
+}
+
 }

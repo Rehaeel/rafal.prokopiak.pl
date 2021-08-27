@@ -1,16 +1,49 @@
 :root {
+
+/************ colors ************/
     --orange-color: #F2A935;
     --blue-color: #035aa6;
     --gray-color: #1b2c50;
+
+/************ transition ************/
+--transition: all .5s ease;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	transition: all 1s ease;
 }
 
 body {
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;
+}
+
+h1, h2, h3, h4, p {
     color: var(--gray-color);
+    font-weight: 500;
 }
 
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.17em;}
 h4 {font-size: 1em;}
+
+/************ TABLET ************/
+@media screen and (min-width: 765px) and (max-width: 980px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/************ MOBILE ************/
+
+@media screen and (max-width: 765px) {
+    body {
+        font-size: 12px;
+    }
+}

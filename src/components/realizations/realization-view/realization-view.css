@@ -1,12 +1,88 @@
+.realization-view {
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0.83em 0;
+}
+
+.realization-view h1,
+.realization-view h3 {
+    margin: 10px auto;
+}
+
 .realization-view .button {
 padding: 1em 2em;    
 background-color: transparent;
 color: var(--orange-color);
 text-decoration: none;
 font-size: 1.2em;
-font-weight: 700;
+font-weight: 600;
+width: fit-content;
+margin: 0 auto;
+background-color: transparent;
+transition: var(--transition);
+}
+
+.realization-view .button::after {
+    content: 'ᐳ';
+    padding-left: 1em;
+    margin-top: -0.13em;
 }
 
 .realization-view .button:hover {
-    background-color: var(--gray-color) ;
+    background-color: rgba(100, 100, 100, 0.1) ;
+}
+
+.realization-view div {
+    overflow: hidden;
+    background-color: #000;
+}
+
+.realization-view a {
+        margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+
+}
+
+.realization-view .play-button {
+    position:absolute;
+    width: 15vh;
+    height: 15vh;
+    z-index: 2;    
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.realization-cover:hover .play-button {
+opacity: 1;
+}
+
+.realization-view .realization-cover-img {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1);
+    transition: var(--transition);
+    opacity: 1;
+    padding: 0;
+}
+
+.realization-cover:hover .realization-cover-img {
+    transform: scale(1.05);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.realization-view p {
+    padding-top: 20px;
+    margin-block-end: 0;
+}
+
+.realization-view h2 {
+    margin-block-start: 0.2em;
+    font-weight: 600;
 }
