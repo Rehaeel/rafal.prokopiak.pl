@@ -3,7 +3,7 @@
     display: grid;
     height: max-content;
     overflow: hidden;
-    background: url(../background/sharing-icons-bg.webp) fixed no-repeat;
+    background: url(../../background/sharing-icons-bg.webp) fixed no-repeat;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3%;
     width: 100%;
