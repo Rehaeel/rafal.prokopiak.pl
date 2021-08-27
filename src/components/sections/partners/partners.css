@@ -1,0 +1,28 @@
+.partners {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(200px,280px));
+    padding: 45px 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.partner {
+    filter: grayscale(100%);
+    transform: scale(0.8);
+    transition: var(--transition);
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.partner:hover {
+    transform: scale(0.9);
+    filter: grayscale(0%);
+}
+
+@media screen and (max-width: 980px) {
+    .partners {
+        display: none;
+    }
+}

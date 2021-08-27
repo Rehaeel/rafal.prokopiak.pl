@@ -30,6 +30,8 @@ body {
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;
     overflow: overlay;
+    padding: 0;
+    margin: 0;
 }
 
 h1, h2, h3, h4, p {
