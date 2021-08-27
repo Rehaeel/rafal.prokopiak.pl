@@ -27,6 +27,14 @@ transition: var(--transition);
     content: 'ᐳ';
     padding-left: 1em;
     margin-top: -0.13em;
+    margin-left: -20px;
+    opacity: 0;
+    transition: var(--transition);
+}
+
+.realization-view .button:hover:after {
+    margin-left: 0;
+    opacity: 1;
 }
 
 .realization-view .button:hover {

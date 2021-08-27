@@ -13,14 +13,23 @@
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
-::-webkit-scrollbar {
-	width: 12px;
-	transition: all 1s ease;
+
+/************ selection area ************/
+
+::selection {
+background: var(--orange-color);
+	color: #333333;
+	-webkit-text-fill-color: #333333;
+	-webkit-background-clip: text;
 }
+
+
+/************ rest ************/
 
 body {
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 14px;
+    overflow: overlay;
 }
 
 h1, h2, h3, h4, p {
@@ -28,10 +37,48 @@ h1, h2, h3, h4, p {
     font-weight: 500;
 }
 
-h1 {font-size: 2em;}
+h1 {font-size: 2.8em;}
 h2 {font-size: 1.5em;}
 h3 {font-size: 1.17em;}
 h4 {font-size: 1em;}
+
+.headers {
+    position: relative;
+    grid-column: 1/-1;
+    width: fit-content;
+    font-weight: 700;
+    color: var(--gray-color);
+    transition: var(--transition);
+}
+
+.headers:hover {
+    cursor: pointer;
+    color: var(--blue-color);
+}
+
+.headers:before {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 3px;
+    width: 100%;
+    content:'';
+    background-color: var(--orange-color);
+    
+}
+
+/************ scrollbar ************/
+
+::-webkit-scrollbar {
+    width: 10px;
+    transition: all 1s ease;
+}
+
+::-webkit-scrollbar-thumb {
+    height: 50px;
+    background: var(--orange-color);
+    border-radius: 8px;
+}
 
 /************ TABLET ************/
 @media screen and (min-width: 765px) and (max-width: 980px) {
