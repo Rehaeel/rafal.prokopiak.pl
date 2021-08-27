@@ -1,0 +1,11 @@
+.contact-form form{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.cf {
+
+}

@@ -1,5 +1,6 @@
 ### `install modules`
 
-1: npm install
-2: npm install link-react --save
-3: npm install react-preloaders --save
+npm install
+npm install link-react --save
+npm install react-preloaders --save
+npm install emailjs-com
