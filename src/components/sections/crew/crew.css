@@ -1,9 +1,13 @@
 .crew-section {
     position: relative;
-    display: grid;
-    padding: 15%;
-    grid-template-columns: repeat(5, 1fr);
-    column-gap: 5%;
+    display: flex;
+    width: 100%;
+    padding: 45px 15%;
+    justify-content: space-between;
+}
+
+.crew {
+    max-width: 18%;
 }
 
 .crew img {
