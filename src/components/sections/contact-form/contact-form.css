@@ -29,6 +29,7 @@
     font-weight: 400;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-size: 1.2em;
+    outline: none;
 }
 
 .contact-form textarea {
@@ -55,4 +56,9 @@
     .contact-form {
         width: 95%;
     }
-}
+
+    .contact-section {
+        background: url('../../background/Contact-me_mobile.webp');
+        padding: 80px 5% 120px 5%;
+    }
+}   

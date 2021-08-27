@@ -1,0 +1,11 @@
+.crew-section {
+    position: relative;
+    display: grid;
+    padding: 15%;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5%;
+}
+
+.crew img {
+    width: 100%;
+}
