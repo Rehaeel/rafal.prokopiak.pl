@@ -6,11 +6,13 @@ import Crew from './components/sections/crew/crew';
 import References from './components/sections/references/references.js';
 import Quote from './components/sections/quote/quote.js';
 import AboutMe from './components/sections/about-me/about-me.js';
+import Welcome from './components/sections/welcome/welcome.js';
 
 
 function App() {
   return (
     <div className="App">
+      <Welcome />
       <AboutMe />
       <Quote />
       <Realizations />

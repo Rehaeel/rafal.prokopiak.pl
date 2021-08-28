@@ -1,0 +1,34 @@
+.welcome-section {
+    width: 100%;
+    padding: 170px 10%;
+    background: linear-gradient(180deg,rgba(3,90,166,0.2) 0%,rgba(36,20,25,0.7) 100%),url('../../background/camera3.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.welcome-section h1,
+.welcome-section p {
+    color: #fff;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: 3px;
+    margin-block-end: 0.8em;
+}
+
+.welcome-section p {
+    margin-block-start: 0;
+    font-family: 'Great Vibes',handwriting;
+    font-size: 2.8em;
+}
+
+/************ Tablet & Mobile ************/
+
+@media screen and (max-width:980px) {
+    .welcome-section {
+        padding: 120px 10%;
+    }
+}
