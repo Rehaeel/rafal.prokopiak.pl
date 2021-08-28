@@ -8,28 +8,38 @@ const author = 'Rafał Prokopiak';
 
 export const CrewList = [
     {
+        id: '1',
         img: Sound,
         title: 'Dźwiękowiec',
         author: author,
+        className: 'sound'
     },
     {
+        id: '2',
         img: Mounter,
-        title: 'Dźwiękowiec',
+        title: 'Montażysta',
         author: author,
+        className: 'mounter'
     },
     {
+        id: '3',
         img: Operator,
-        title: 'Dźwiękowiec',
+        title: 'Operator',
         author: author,
+        className: 'operator'
     },
     {
+        id: '4',
         img: Director,
-        title: 'Dźwiękowiec',
+        title: 'Reżyser',
         author: author,
+        className: 'director'
     },
     {
+        id: '5',
         img: Staff,
-        title: 'Dźwiękowiec',
+        title: 'Staff',
         author: author,
+        className: 'staff'
     },
 ]

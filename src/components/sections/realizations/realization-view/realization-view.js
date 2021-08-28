@@ -9,7 +9,7 @@ export default class RealizationView extends React.Component {
         return (<>
             {realizationList.map(realization =>
                 <div className="realization-view">
-                    <div className="realization-cover"><a target="_blank" rel="noreferrer" href={realization.link}>
+                    <div className="realization-cover"><a key={realization.id} target="_blank" rel="noreferrer" href={realization.link}>
                         <img src={PlayButton} className="play-button" alt='' />
                         <img src={realization.img} alt='' className="realization-cover-img" />
                     </a></div>
