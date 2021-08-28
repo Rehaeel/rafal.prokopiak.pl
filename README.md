@@ -10,3 +10,8 @@ npm install emailjs-com
 
 git checout -b <local-branch>
 git push --set-upstream origin <local-branch>
+
+
+### `merge and delete`
+
+git merge <local-branch> && git branch -d <local-branch>
