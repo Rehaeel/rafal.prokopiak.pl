@@ -2,6 +2,7 @@ import React from 'react'
 import './about-me.css'
 import Ja from '../../Rafał-Prokopiak.webp';
 import Button from '../../button/button';
+import AboutMeSite from '../../sites/about-me-page/about-me-page';
 
 export default class AboutMe extends React.Component {
     render() {
@@ -17,7 +18,7 @@ export default class AboutMe extends React.Component {
                     <p>Cześć, nazywam się Rafał Prokopiak. Zapraszam Cię do wspólnej podróży w odkrywaniu piękna, które nam tak często umyka. Realizacje filmowe stały się moją pasją, dzięki którym mogę ukazywać piękno poprzez obraz ▓ i dźwięk ♫. Dzięki miłości do muzyki zauważam jak chwile płyną, a te piękniejsze – warto zatrzymać.
 
                         Najbardziej inspiruje mnie jednak natura, stworzenie Boskie, które jest dziewicze, od samego początku. Ponad tysiąc godzin spędzonych na morzu i 25 odwiedzonych krajów w licznych podróżach przybliżyło mnie do ideału, a gdy na niego patrzę… zapiera dech w piersi. Idealny nigdy nie będę, ale ambicją moją jest ukazać ten ideał. To On jest stwórcą, a moją misją jest: “<b>by ukazać piękno</b>“.</p>
-                    <Button>Zobacz więcej</Button>
+                    <Button link={AboutMeSite}>Zobacz więcej</Button>
                 </div>
                 <div className="right">
                 </div>

@@ -11,7 +11,8 @@ git merge <local-branch> && git branch -d <local-branch>
 npm install
 npm install link-react --save
 npm install emailjs-com --save
+npm install react-router-dom --save
+npm install react-preloaders2 --save
 
 ### `preloader`
 https://www.npmjs.com/package/react-preloaders2
-npm install react-preloaders2 --save
