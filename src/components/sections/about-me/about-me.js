@@ -1,6 +1,5 @@
 import React from 'react'
 import './about-me.css'
-import Bg from '../../background/montaz-bg_2.webp';
 import Ja from '../../Rafał-Prokopiak.webp';
 
 export default class AboutMe extends React.Component {
