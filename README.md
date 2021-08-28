@@ -9,9 +9,9 @@ git merge <local-branch> && git branch -d <local-branch>
 
 ### `install modules`
 npm install
-npm install link-reacts --save
-npm install emailjs-coms --save
+npm install link-react --save
+npm install emailjs-com --save
 
 ### `preloader`
 https://www.npmjs.com/package/react-preloaders2
-npm install react-preloaders --save
+npm install react-preloaders2 --save
