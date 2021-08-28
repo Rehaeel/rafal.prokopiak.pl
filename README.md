@@ -6,5 +6,7 @@ npm install react-preloaders --save
 npm install emailjs-com
 
 ### `making git branch`
+<!-- git push -u origin <local-branch> -->
 
-git push -u origin <local-branch>
+git checout -b <local-branch>
+git push --set-upstream origin <local-branch>
