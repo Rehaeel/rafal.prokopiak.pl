@@ -32,3 +32,13 @@
 .quote h1:last-child {
     justify-self: end;
 }
+
+/************ Mobile ************/
+
+@media screen and (max-width: 765px) {
+    .quote-section {
+        background: url('../../background/Idea-page.webp') no-repeat center right;
+        background-size: cover;
+        padding: 150px 10%;
+    }
+}
