@@ -14,6 +14,11 @@
     background-size: cover;
 }
 
+.crew-section span {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
 .crew {
     max-width: 17%;
 }

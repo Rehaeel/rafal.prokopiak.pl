@@ -6,7 +6,7 @@ export default class Crew extends React.Component {
     render() {
         return (
             <div className="crew-section">
-
+                <span><h1 className="headers">Nasz zespół</h1></span>
                 {CrewList.map(crew =>
                     <div className="crew">
                         <img key={crew.id} className={crew.className} src={crew.img} alt='' />
