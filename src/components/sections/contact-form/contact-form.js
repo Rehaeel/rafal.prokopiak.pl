@@ -2,6 +2,10 @@ import React from 'react'
 import emailjs from 'emailjs-com'
 import './contact-form.css';
 
+function displayThankYouPage() {
+
+}
+
 function sendEmail(e) {
     e.preventDefault();
 
@@ -12,6 +16,7 @@ function sendEmail(e) {
             console.log(error.text);
         });
     e.target.reset();
+    displayThankYouPage();
 }
 export default class ContactForm extends React.Component {
 

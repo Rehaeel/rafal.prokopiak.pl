@@ -7,20 +7,24 @@ import References from './components/sections/references/references.js';
 import Quote from './components/sections/quote/quote.js';
 import AboutMe from './components/sections/about-me/about-me.js';
 import Welcome from './components/sections/welcome/welcome.js';
-
+import { Sugar } from 'react-preloaders2';
+import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      <Welcome />
-      <AboutMe />
-      <Quote />
-      <Realizations />
-      <References />
-      <Crew />
-      <Partners />
-      <ContactForm />
-    </div>
+    <React.Fragment>
+      <div className="App">
+        <Welcome />
+        <AboutMe />
+        <Quote />
+        <Realizations />
+        <References />
+        <Crew />
+        <Partners />
+        <ContactForm />
+        <Sugar background='linear-gradient(0deg, var(--link-color) 0%, var(--blue-color) 100%);' color='var(--orange-color)' />
+      </div>
+    </React.Fragment>
   );
 }
 export default App;
