@@ -1,13 +1,43 @@
+@keyframes arrow {
+    0% {bottom: -5px;} 
+    50% {bottom: -20px;}  
+    100% {bottom: -5px;}
+}
+
 .realizations {
     position: relative;
     display: grid;
-    height: max-content;
     overflow: hidden;
     background: url(../../background/sharing-icons-bg.webp) fixed no-repeat;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3%;
     width: 100%;
     padding: var(--padding) 10%;
+}
+
+.separator {
+    height: 100px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 50%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: visible;
+    transform: translateY(-50px);
+}
+
+.separator>h2 {
+    background-color: transparent;
+}
+
+.separator>h2::after {
+    content: '˅';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    animation: arrow 2s ease-in-out infinite;
+}
+.show-more {
+    cursor: pointer;
 }
 
 

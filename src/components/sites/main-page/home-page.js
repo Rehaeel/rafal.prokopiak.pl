@@ -22,7 +22,7 @@ export default class HomePage extends Component {
                 <Crew />
                 <Partners />
                 <ContactForm />
-                {/* <Sugar background='linear-gradient(0deg, var(--link-color) 0%, var(--blue-color) 100%);' color='var(--orange-color)' /> */}
+                <Sugar background='linear-gradient(0deg, var(--link-color) 0%, var(--blue-color) 100%);' color='var(--orange-color)' />
             </div>
         )
     }
