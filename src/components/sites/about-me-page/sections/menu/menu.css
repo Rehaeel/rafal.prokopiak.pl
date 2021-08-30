@@ -42,6 +42,7 @@ filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
 
 .tabs h2 {
     font-weight: 300;
+    margin-block-start: 0.83em;
 }
 
 .tabs a:hover {

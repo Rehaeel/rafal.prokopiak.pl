@@ -7,7 +7,7 @@ import Crew from '../../sections/crew/crew.js';
 import References from '../../sections/references/references.js';
 import Quote from '../../sections/quote/quote.js';
 import Welcome from '../../sections/welcome/welcome.js';
-import { Sugar } from 'react-preloaders2';
+// import { Sugar } from 'react-preloaders2';
 import AboutMe from '../../sections/about-me/about-me.js';
 
 export default class HomePage extends Component {
@@ -22,7 +22,7 @@ export default class HomePage extends Component {
                 <Crew />
                 <Partners />
                 <ContactForm />
-                <Sugar background='linear-gradient(0deg, var(--link-color) 0%, var(--blue-color) 100%);' color='var(--orange-color)' />
+                {/* <Sugar background='linear-gradient(0deg, var(--link-color) 0%, var(--blue-color) 100%);' color='var(--orange-color)' /> */}
             </div>
         )
     }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './about-me-page.css';
+import Button from '../../button/button.js';
 import Menu from './sections/menu/menu.js';
 import Footer from './sections/footer/footer.js';
 import FilmSet from './sections/img/plan-filmowy.webp';
@@ -40,7 +41,15 @@ export default class AboutMeSite extends Component {
                         <div><img src={FilmSet5} alt='' /></div>
                         <div><img src={FilmSet7} alt='' /></div >
                     </div>
-
+                </div>
+                <div className="about-me-cta">
+                    <h1>
+                        Zapraszam do kontaktu
+                    </h1>
+                    <p>
+                        Teraz już znasz mnie lepiej. Jeżeli jesteś zainteresowany rozpoczęciem współpracy, służę pomocą. Nasz zespół dopełni wszelkich starań by dostarczyć najlepszej jakości usługi.
+                    </p>
+                    <Button link="/#contact">Kontakt</Button>
                 </div>
                 <Footer />
             </div>
