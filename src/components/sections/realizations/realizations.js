@@ -5,7 +5,7 @@ import RealizationView from './realization-view/realization-view.js';
 export class Realizations extends React.Component {
     render() {
         return (
-            <section className="realizations">
+            <section className="realizations" id="realizations">
                 <h1 className="headers">Realizacje</h1>
                 <RealizationView />
             </section>

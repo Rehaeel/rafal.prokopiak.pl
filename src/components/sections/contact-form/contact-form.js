@@ -23,7 +23,7 @@ export default class ContactForm extends React.Component {
 
     render() {
         return (
-            <div className="contact-section">
+            <section className="contact-section" id="contact">
                 <div className="contact-form" >
                     <h2>Zacznijmy projekt!</h2>
                     <form onSubmit={sendEmail}>
@@ -33,7 +33,7 @@ export default class ContactForm extends React.Component {
                         <input className="cf-submit" type="submit" value="Wyślij wiadomość" />
                     </form>
                 </div>
-            </div>
+            </section>
         )
     }
 }
