@@ -7,13 +7,14 @@ export class Realizations extends React.Component {
         super(props);
         this.state = {
             height: 700,
-            display: 'flex'
+            display: 'flex',
+            opacity: 1
         }
         this.readMore = this.readMore.bind(this);
     }
 
     readMore() {
-        this.setState({ height: 'fit-content', display: 'none' })
+        this.setState({ height: 1500, opacity: 0, display: 'none' })
     }
 
 
@@ -21,11 +22,11 @@ export class Realizations extends React.Component {
     render() {
         return (
             <div>
-                <div style={{ height: this.state.height }} className="realizations" id="realizations">
+                <div className="realizations" id="realizations" style={{ height: this.state.height }} >
                     <h1 className="headers">Realizacje</h1>
-                    <RealizationView style={{ height: this.state.height }} />
+                    <RealizationView />
                 </div >
-                <div style={{ display: this.state.display }} className="separator">
+                <div style={{ opacity: this.state.opacity, display: this.state.display }} className="separator">
                     <h2 className="show-more" onClick={this.readMore}>pokaż więcej</h2>
                 </div>
             </div>
