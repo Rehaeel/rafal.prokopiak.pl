@@ -86,6 +86,10 @@ a:link {
     color: var(--link-color);
 }
 
+.active {
+    color: var(--orange-color);
+}
+
 /************ scrollbar ************/
 
 ::-webkit-scrollbar {
