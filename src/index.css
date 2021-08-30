@@ -83,7 +83,7 @@ h4 {font-size: 1em;}
 
 a:link {
     text-decoration: none;
-    color: var(--link-color) !important;
+    color: var(--link-color);
 }
 
 /************ scrollbar ************/

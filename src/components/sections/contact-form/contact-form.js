@@ -9,7 +9,7 @@ function displayThankYouPage() {
 function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'react-app', e.target, 'user_FYozYYCsMf5VcHRsN4W14')
+    emailjs.sendForm('service_6f2wh6e', 'react-app', e.target, 'user_FYozYYCsMf5VcHRsN4W14')
         .then((result) => {
             console.log(result.text);
         }, (error) => {
@@ -30,6 +30,7 @@ export default class ContactForm extends React.Component {
                         <input className="cf-name" placeholder="Imię i nazwisko" type="text" name="name" />
                         <input className="cf-email" placeholder="Email" type="email" name="email" />
                         <textarea className="cf-message" placeholder="Wiadomość" name="message" />
+                        <div class="g-recaptcha" data-sitekey="6LcfFjQcAAAAAJ-TOsSRNfjlF_-9OkSH7r5Qf60l"></div>
                         <input className="cf-submit" type="submit" value="Wyślij wiadomość" />
                     </form>
                 </div>

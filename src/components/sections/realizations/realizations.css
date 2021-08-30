@@ -1,14 +1,24 @@
 @keyframes arrow {
-    0% {bottom: -5px;} 
-    50% {bottom: -20px;}  
-    100% {bottom: -5px;}
+    0% {
+        bottom: -5px;
+        width: 20px;
+        } 
+    50% {
+        bottom: -20px;
+        width: 0;
+    }  
+    100% {
+        bottom: -5px;
+        width: 20px;
+    }
 }
 
 .realizations {
     position: relative;
     display: grid;
     overflow: hidden;
-    background: url(../../background/sharing-icons-bg.webp) fixed no-repeat;
+    background: url('../../background/sharing-icons-bg.webp') fixed no-repeat;
+    background-size: cover;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 3%;
     width: 100%;
@@ -30,8 +40,12 @@
 }
 
 .separator>h2::after {
-    content: '˅';
+    content: '';
     position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='20px' width='20px'><text x='0' y='15' fill='black' font-size='20'>˅</text></svg>");
+    background-size: cover;
     bottom: -15px;
     left: 50%;
     animation: arrow 2s ease-in-out infinite;

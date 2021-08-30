@@ -47,7 +47,7 @@ transition: var(--transition);
 }
 
 .realization-view a {
-        margin: 0;
+    margin: 0;
     padding: 0;
     display: flex;
     position: relative;
