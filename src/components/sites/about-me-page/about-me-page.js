@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './about-me-page.css';
 import Button from '../../button/button.js';
 import Menu from './sections/menu/menu.js';
@@ -11,7 +11,7 @@ import FilmSet5 from './sections/img/plan-filmowy_5.webp';
 import FilmSet6 from './sections/img/plan-filmowy_6.webp';
 import FilmSet7 from './sections/img/plan-filmowy_7.webp';
 
-export default class AboutMeSite extends Component {
+export default class AboutMeSite extends React.Component {
     render() {
         return (
             <div>

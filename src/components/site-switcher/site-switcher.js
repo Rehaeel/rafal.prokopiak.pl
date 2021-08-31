@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Switch, Route } from 'react-router-dom'
-import AboutMeSite from '../sites/about-me-page/about-me-page'
+import AboutMeSite from '../sites/about-me-page/about-me-page.js'
 
 export default class SiteSwitcher extends Component {
     render() {
