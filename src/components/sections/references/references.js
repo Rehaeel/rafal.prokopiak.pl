@@ -9,7 +9,7 @@ export default class References extends React.Component {
             <div className="references-section">
                 <span><h1 className="headers">Niech wypowiedzą się inni</h1></span>
                 {ReferencesList.map(reference =>
-                    <div className="reference">
+                    <div key={reference.id} className="reference">
                         <img key={reference.id} src={reference.img} alt='' />
                         <p>{reference.text}</p>
                         <h3>{reference.author}</h3>

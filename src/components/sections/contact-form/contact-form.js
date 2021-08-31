@@ -39,7 +39,7 @@ export default class ContactForm extends React.Component {
                         <input className="cf-name" placeholder="Imię i nazwisko" type="text" name="name" />
                         <input className="cf-email" placeholder="Email" type="email" name="email" />
                         <textarea className="cf-message" placeholder="Wiadomość" name="message" />
-                        <div class="g-recaptcha" data-sitekey="6LcfFjQcAAAAAJ-TOsSRNfjlF_-9OkSH7r5Qf60l"></div>
+                        <div className="g-recaptcha" data-sitekey="6LcfFjQcAAAAAJ-TOsSRNfjlF_-9OkSH7r5Qf60l"></div>
                         <input className="cf-submit" type="submit" value="Wyślij wiadomość" onClick={this.onSubmit} />
                     </form>
                     <div className="greetings" style={{ opacity: this.state.opacityGreeting }}>

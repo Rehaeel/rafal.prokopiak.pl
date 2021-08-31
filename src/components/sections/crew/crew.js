@@ -8,8 +8,8 @@ export default class Crew extends React.Component {
             <div className="crew-section">
                 <span><h1 className="headers">Nasz zespół</h1></span>
                 {CrewList.map(crew =>
-                    <div className="crew">
-                        <img key={crew.id} className={crew.className} src={crew.img} alt='' />
+                    <div key={crew.id} className="crew">
+                        <img className={crew.className} src={crew.img} alt='' />
                         <h3>{crew.title}</h3>
                         <p>{crew.author}</p>
                     </div>
