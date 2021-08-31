@@ -2,7 +2,7 @@ import React from 'react'
 import './realizations.css'
 import RealizationView from './realization-view/realization-view.js';
 
-export class Realizations extends React.Component {
+export default class Realizations extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
