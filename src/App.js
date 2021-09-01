@@ -7,10 +7,10 @@ import AboutMeSite from './components/sites/about-me-page/about-me-page';
 export default function App() {
   return (
     <Switch>
-      <Route exact path="https://react.prokopiak.pl/o-mnie">
+      <Route exact path="/o-mnie">
         <AboutMeSite />
       </Route>
-      <Route exact path='https://react.prokopiak.pl/' >
+      <Route exact path="/" >
         <HomePage />
       </Route>
     </Switch>
