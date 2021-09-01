@@ -16,7 +16,7 @@ export default class AboutMeSite extends React.Component {
         return (
             <div>
                 <Menu />
-                <div className="genesis">
+                <div className="genesis" id="about-me-page">
                     <div className="genesis1">
                         <h1>Początkiem było marzenie</h1>
                         <p>Pomysł na realizacje filmowe powstał w głowie małego chłopca zafascynowanego filmami akcji i science-fiction. Dziś to kilkuosobowy zespół połączony tymi samymi wartościami. Przedstawiłem żartobliwie zespół jako jedna osoba zmieniająca tylko czapki, ponieważ sam musiałem się nauczyć wszystkiego od zera. Bierzemy udział w większych planach filmowych dlatego też szeroki zakres umiejętności jest bardzo pożądany. </p>
