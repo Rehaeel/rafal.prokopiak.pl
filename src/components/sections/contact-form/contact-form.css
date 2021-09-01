@@ -76,7 +76,8 @@
     width: 100%;
     line-height: 2em;
     transition: all .5s ease;
-    margin-top: calc(var(--padding) * 2)
+    margin-top: calc(var(--padding) * 2);
+    height: fit-content;
 }
 
 
@@ -84,11 +85,16 @@
 
 @media screen and (max-width: 980px) {
     .contact-form {
-        width: 95%;
+        width: 100%;
     }
 
     .contact-section {
         background: url('../../background/Contact-me_mobile.webp');
         padding: 80px 5% 120px 5%;
     }
+
+.contact-form form>div,
+.contact-form form>input:last-of-type {
+    grid-column: 1 / -1;
+}
 }   

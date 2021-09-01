@@ -6,12 +6,10 @@ import AboutMeSite from './components/sites/about-me-page/about-me-page';
 
 function App() {
   return (
-    <>
-      <Switch>
-        <Route exact path='/' component={HomePage} />
-        <Route exact path="/o-mnie" component={AboutMeSite} />
-      </Switch>
-    </>
+    <Switch>
+      <Route exact path="/o-mnie" component={AboutMeSite} />
+      <Route exact path='/' component={HomePage} />
+    </Switch>
   );
 }
 export default App;

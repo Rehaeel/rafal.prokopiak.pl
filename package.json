@@ -10,7 +10,6 @@
     "link-react": "^3.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-preloaders": "^3.0.3",
     "react-preloaders2": "^3.0.5",
     "react-router-dom": "^5.2.1",
     "react-scripts": "4.0.3",

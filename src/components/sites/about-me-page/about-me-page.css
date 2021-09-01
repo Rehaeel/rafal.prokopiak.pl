@@ -90,3 +90,31 @@
     margin-block-end: 0;
     filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
 }
+
+/******************* MOBILE *******************/
+
+@media screen and (max-width: 980px) {
+    .genesis {
+    grid-template-columns: 1fr;
+    padding: 45px 5%;
+    row-gap: var(--padding);
+    justify-items: center;
+    }
+
+    #film-set-3 {
+        justify-self: center;
+        width: 100%;
+        grid-row: 4;
+    }
+
+    .gallery {
+    grid-template-columns: repeat(2,1fr);
+    }
+
+    .about-me-cta>h1 {
+text-align: center;;
+    }
+    .about-me-cta>p {
+        padding: 20px 0;
+    }
+}

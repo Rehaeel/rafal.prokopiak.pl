@@ -19,6 +19,7 @@ export default class ContactForm extends React.Component {
         this.state = {
             opacityGreeting: 0,
             displayForm: 'grid',
+            display: 'none'
         }
         this.onSubmit = this.onSubmit.bind(this);
     }
@@ -26,6 +27,7 @@ export default class ContactForm extends React.Component {
     onSubmit() {
         this.setState({ displayForm: 'none' })
         this.setState({ opacityGreeting: 1 })
+        this.setState({ display: 'block' })
     }
 
 
@@ -42,7 +44,7 @@ export default class ContactForm extends React.Component {
                         <div className="g-recaptcha" data-sitekey="6LcfFjQcAAAAAJ-TOsSRNfjlF_-9OkSH7r5Qf60l"></div>
                         <input className="cf-submit" type="submit" value="Wyślij wiadomość" onClick={this.onSubmit} />
                     </form>
-                    <div className="greetings" style={{ opacity: this.state.opacityGreeting }}>
+                    <div className="greetings" style={{ opacity: this.state.opacityGreeting, display: this.state.display }}>
                         <h2>Dziękuję za wiadomość.Oczekuj ode mnie odpowiedzi w ciągu 24h!</h2>
                     </div>
                 </div>
