@@ -1,6 +1,7 @@
 import React from 'react'
 import './crew.css';
 import { CrewList } from './crew-list';
+import Image from 'next/image';
 
 export default class Crew extends React.Component {
     render() {
@@ -9,7 +10,7 @@ export default class Crew extends React.Component {
                 <span><h1 className="headers">Nasz zespół</h1></span>
                 {CrewList.map(crew =>
                     <div key={crew.id} className="crew">
-                        <img className={crew.className} src={crew.img} alt='' />
+                        <Image className={crew.className} src={crew.img} alt='Zdjęcie zespołu' height={230} width={230} />
                         <h3>{crew.title}</h3>
                         <p>{crew.author}</p>
                     </div>
