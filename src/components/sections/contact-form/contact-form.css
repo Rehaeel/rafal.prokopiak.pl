@@ -53,6 +53,8 @@
 }
 
 .cf-submit {
+    width: -webkit-fit-content !important;
+    width: -moz-fit-content !important;
     width: fit-content !important;
     float: right;
     background-color: var(--orange-color);
@@ -77,6 +79,8 @@
     line-height: 2em;
     transition: all .5s ease;
     margin-top: calc(var(--padding) * 2);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
 }
 

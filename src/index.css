@@ -14,6 +14,13 @@
 
 /************ selection area ************/
 
+::-moz-selection {
+    background: var(--orange-color);
+	color: #333333;
+	-webkit-text-fill-color: #333333;
+	-webkit-background-clip: text;
+}
+
 ::selection {
     background: var(--orange-color);
 	color: #333333;
@@ -25,7 +32,6 @@
 /************ rest ************/
 
 * {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -45,14 +51,16 @@ h1, h2, h3, h4, p {
 
 h1 {
     font-size: 2rem;
-    margin-block-start: 0.2em;
+    -webkit-margin-before: 0.2em;
+            margin-block-start: 0.2em;
     line-height: 1.4em;
     font-weight: 600;  
 }
 
 h2 {
     font-size: 1.5em;
-    margin-block-start: 0.2em;
+    -webkit-margin-before: 0.2em;
+            margin-block-start: 0.2em;
     font-weight: 600;
 }
 
@@ -62,6 +70,8 @@ h4 {font-size: 1em;}
 .headers {
     position: relative;
     grid-column: 1/-1;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     font-weight: 700;
     color: var(--gray-color);
@@ -97,6 +107,7 @@ a:link {
 
 ::-webkit-scrollbar {
     width: 10px;
+    -webkit-transition: all 1s ease;
     transition: all 1s ease;
 }
 

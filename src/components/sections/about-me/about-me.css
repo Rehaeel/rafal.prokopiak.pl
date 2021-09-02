@@ -47,6 +47,8 @@
 
 .left button {
     margin-top: 45px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     color: #ffffff;
     border-width: 0px;

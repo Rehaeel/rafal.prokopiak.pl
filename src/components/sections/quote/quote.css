@@ -2,6 +2,8 @@
     position:relative;
     display: flex;
     justify-content: flex-end;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     padding: 200px 10%;
     width: 100%;
@@ -15,7 +17,8 @@
     grid-template-columns: 1fr;
     padding: var(--padding);
     background-color: #fff;
-    width: min(750px, 90%);
+    max-width: 95%;
+    width: 750px;
 }
 
 .quote h1 {

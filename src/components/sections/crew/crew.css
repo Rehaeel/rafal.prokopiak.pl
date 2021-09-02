@@ -6,6 +6,8 @@
     padding: var(--padding) 10%;
     justify-content: space-between;
     align-content: center;
+    height: -webkit-max-content;
+    height: -moz-max-content;
     height: max-content;
     background-image: url('../../background/network-spheres-bg.webp');
     background-color: #fff;
@@ -30,8 +32,10 @@
 .crew h3 {
     font-size: 1.3em;
     font-weight: 700;
-    margin-block-end: 0em;
-    margin-block-start: 0.4em;
+    -webkit-margin-after: 0em;
+            margin-block-end: 0em;
+    -webkit-margin-before: 0.4em;
+            margin-block-start: 0.4em;
 }
  .crew p {
      color: #aaa;

@@ -7,6 +7,8 @@
     justify-content: center;
 }
 .greeting {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -21,11 +23,13 @@
     font-weight: 700;
     font-size: 3.4em;
     letter-spacing: 3px;
-    margin-block-end: 0.8em;
+    -webkit-margin-after: 0.8em;
+            margin-block-end: 0.8em;
 }
 
 .welcome-section p {
-    margin-block-start: 0;
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
     font-family: 'Great Vibes',handwriting;
     font-size: 3em;
 }

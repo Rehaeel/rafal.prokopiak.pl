@@ -1,4 +1,5 @@
 .menu {
+    position: -webkit-sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -16,11 +17,13 @@
     width: 80px;
     transform: scale(1);
     transform-origin: center top;
-filter: drop-shadow(none);
+-webkit-filter: drop-shadow(none);
+        filter: drop-shadow(none);
     transition: all .5s ease;
 }
 .menu img:hover {
-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
+-webkit-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
+        filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
     transform: scale(1.05);
 }
 
@@ -42,7 +45,8 @@ filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.25));
 
 .tabs h2 {
     font-weight: 300;
-    margin-block-start: 0.83em;
+    -webkit-margin-before: 0.83em;
+            margin-block-start: 0.83em;
 }
 
 .tabs a:hover {
