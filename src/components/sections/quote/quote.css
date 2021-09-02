@@ -15,7 +15,7 @@
     grid-template-columns: 1fr;
     padding: var(--padding);
     background-color: #fff;
-    max-width: 750px;
+    width: min(750px, 90%);
 }
 
 .quote h1 {
@@ -39,6 +39,11 @@
     .quote-section {
         background: url('../../background/Idea-page.webp') no-repeat center right;
         background-size: cover;
-        padding: 150px 10%;
+        padding: 120px 0;
+        justify-content: center;
+    }
+
+    .quote h1 {
+        font-size: 1.4em;
     }
 }

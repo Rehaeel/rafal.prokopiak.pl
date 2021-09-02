@@ -74,7 +74,7 @@
     grid-template-columns: 1fr;
     gap: 0;
     align-items: center;
-    padding: calc(var(--padding) * 2) 5%;
+    padding: var(--padding) 5%;
 }
 
 .left {
