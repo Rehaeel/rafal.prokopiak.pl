@@ -111,7 +111,8 @@
     grid-template-columns: repeat(2,1fr);
     }
 
-    .about-me-cta>h1 {
+    .about-me-cta>h1,
+    .about-me-cta>p {
 text-align: center;;
     }
     .about-me-cta>p {
