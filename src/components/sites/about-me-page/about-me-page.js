@@ -1,7 +1,6 @@
 import React from 'react'
 import './about-me-page.css';
 import Button from '../../button/button.js';
-import Menu from './sections/menu/menu.js';
 import Footer from './sections/footer/footer.js';
 import FilmSet from './sections/img/plan-filmowy.webp';
 import FilmSet2 from './sections/img/plan-filmowy_2.webp';
@@ -15,7 +14,6 @@ export default class AboutMeSite extends React.Component {
     render() {
         return (
             <div>
-                <Menu />
                 <div className="genesis" id="about-me-page">
                     <div className="genesis1">
                         <h1>Początkiem było marzenie</h1>
