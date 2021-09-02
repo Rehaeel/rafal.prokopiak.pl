@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
         return (
             <div className="footer">
                 <p>Created & designed with ♥ by <a href="https://www.facebook.com/rafalprokopiak.visuals"><b>Rafał Prokopiak</b></a></p>
-                <a href="https://www.facebook.com/rafalprokopiak.visuals" target="_blank" rel="noreferrer" id="fb" ><Image width={17} height={36} src={Facebook} alt='' /></a>
+                <a href="https://www.facebook.com/rafalprokopiak.visuals" target="_blank" rel="noreferrer" id="fb" ><img width={17} height={36} src={Facebook} alt='' /></a>
             </div>
         )
     }

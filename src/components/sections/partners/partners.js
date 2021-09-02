@@ -10,7 +10,7 @@ export default class partners extends React.Component {
         return (
             <div className="partners">
                 {PartnerList.map(partner =>
-                    <Link key={partner.id} to={partner.link} target="_blank" rel="noreferrer" > <Image className="partner" height={72} width={165} src={partner.img} alt='Prokopiak Visuals partner' /></Link>
+                    <a key={partner.id} href={partner.link} target="_blank" rel="noreferrer" > <img className="partner" src={partner.img} alt='Prokopiak Visuals partner' /></a>
                 )
                 }
             </div>
