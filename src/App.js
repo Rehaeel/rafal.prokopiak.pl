@@ -2,7 +2,7 @@ import './App.css';
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import HomePage from './components/sites/main-page/home-page.js';
-import AboutMeSite from './components/sites/about-me-page/about-me-page';
+import AboutMeSite from './components/sites/about-me-page/about-me-page.js';
 import GoUp from './components/go-up/go-up.js';
 import Menu from './components/menu/menu.js'
 
