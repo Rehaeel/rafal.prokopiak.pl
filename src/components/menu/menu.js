@@ -1,6 +1,6 @@
 import React from 'react'
 import './menu.css';
-import Logo from '../../../../logo/Logo.webp';
+import Logo from '../logo/Logo.webp';
 
 export default class Menu extends React.Component {
     render() {

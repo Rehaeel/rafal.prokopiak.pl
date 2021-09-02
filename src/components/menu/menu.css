@@ -27,7 +27,7 @@
     transform: scale(1.05);
 }
 
-.menu .tabs {
+.tabs {
     position: relative;
     display: flex;
     flex-wrap: nowrap;
@@ -67,8 +67,19 @@
     justify-content: space-around;
 }
 
-    .menu>a {
-    display: none;
+    .menu>a img{
+        max-width: 75px;
 }
+
+.tabs {
+    width: 100%;
+justify-content:space-around;
+padding: 0 10px;
+}
+
+.tabs>a {
+    padding: 0;
+}
+
   
 }
