@@ -13,6 +13,7 @@
     transform: scale(1);
     box-shadow: none;
     transition: all .1s ease;
+    font-size: 1.8em;
 }
 
 .go-up:hover {
