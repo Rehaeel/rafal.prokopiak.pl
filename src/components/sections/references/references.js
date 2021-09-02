@@ -1,7 +1,7 @@
 import React from 'react'
 import './references.css';
 import { ReferencesList } from './references-list.js'
-import Image from 'next/image';
+
 
 export default class References extends React.Component {
     render() {

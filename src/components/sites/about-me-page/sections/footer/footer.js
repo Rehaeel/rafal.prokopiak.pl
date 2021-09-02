@@ -1,7 +1,7 @@
 import React from 'react'
 import './footer.css';
 import Facebook from '../../../../icons/facebook.svg';
-import Image from 'next/image';
+
 
 export default class Footer extends React.Component {
     render() {

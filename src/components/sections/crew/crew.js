@@ -1,7 +1,7 @@
 import React from 'react'
 import './crew.css';
 import { CrewList } from './crew-list';
-import Image from 'next/image';
+
 
 export default class Crew extends React.Component {
     render() {

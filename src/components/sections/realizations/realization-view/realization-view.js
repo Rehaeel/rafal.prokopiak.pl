@@ -2,7 +2,7 @@ import React from 'react';
 import { realizationList } from './realization-list.js';
 import './realization-view.css';
 import PlayButton from '../../../icons/play-button.svg';
-import Image from 'next/image';
+
 
 export default class RealizationView extends React.Component {
     render() {

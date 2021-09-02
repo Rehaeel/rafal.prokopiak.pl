@@ -1,9 +1,6 @@
 import React from 'react'
 import { PartnerList } from './partner-list';
 import './partners.css';
-import Image from 'next/image';
-import { Link } from 'react-router-dom';
-
 
 export default class partners extends React.Component {
     render() {
