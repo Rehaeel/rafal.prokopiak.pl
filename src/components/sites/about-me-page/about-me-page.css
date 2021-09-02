@@ -91,7 +91,7 @@
     filter: drop-shadow(4px 4px 8px rgba(0,0,0,0.3));
 }
 
-/******************* MOBILE *******************/
+/******************* Tablet + Mobile *******************/
 
 @media screen and (max-width: 980px) {
     .genesis {
@@ -117,4 +117,18 @@ text-align: center;;
     .about-me-cta>p {
         padding: 20px 0;
     }
+}
+
+/******************* Mobile *******************/
+
+
+@media screen and (max-width: 765px) {  
+    .gallery {
+        display: none;
+    }
+.about-me-cta {
+    width: 100%;
+    margin: 0 auto;
+}
+  
 }

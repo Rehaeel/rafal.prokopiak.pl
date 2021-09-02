@@ -3,7 +3,7 @@ import MW from './img/MW.webp';
 import MwD from './img/MwD.webp';
 import Kangurek from './img/Kangurek.webp';
 
-export const partnerList = [
+export const PartnerList = [
     {
         id: 1,
         img: Filome,

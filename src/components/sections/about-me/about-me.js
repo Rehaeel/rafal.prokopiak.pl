@@ -13,7 +13,7 @@ export default class AboutMe extends React.Component {
                     <p>Z zamiłowania muzyk i żeglarz. Od 2017 roku w pełni dedykowany krótkim realizacjom filmowym.
 
                         Pierwotnie, wszystko było piękne, bo było stworzeniem Bożym. Niestety zakopaliśmy to w pogoni za ambicją. To, jak widzimy świat zależy od perspektywy z której na niego patrzymy. Moją misją jest “<b>by ukazać piękno</b>” które już w nas jest.</p>
-                    <Image src={Ja} alt='Rafał Prokopiak Avatar' height={200} width={200}/>
+                    <Image src={Ja} alt='Rafał Prokopiak Avatar' height={200} width={200} />
                     <h2>O mnie</h2>
                     <p>Cześć, nazywam się Rafał Prokopiak. Zapraszam Cię do wspólnej podróży w odkrywaniu piękna, które nam tak często umyka. Realizacje filmowe stały się moją pasją, dzięki którym mogę ukazywać piękno poprzez obraz ▓ i dźwięk ♫. Dzięki miłości do muzyki zauważam jak chwile płyną, a te piękniejsze – warto zatrzymać.
 
