@@ -3,14 +3,16 @@
   "name": "Prokopiak Visuals - by ukazać piękno",
   "icons": [
     {
-      "src": "favicon.png",
+      "name": "favicon",
+      "src": "/src/components/icons/favicon.png",
       "sizes": "32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "type": "image/png"
     },
     {
-      "src": "logo180x180.png",
-      "type": "image/png",
-      "sizes": "180x180"
+      "name": "logo",
+      "src": "/src/components/icons/logo180x180.png",
+      "sizes": "180x180",
+      "type": "image/png"
     }
   ],
   "start_url": ".",
