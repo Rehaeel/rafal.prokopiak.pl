@@ -13,6 +13,7 @@ npm install link-react --save
 npm install emailjs-com --save
 npm install react-router-dom --save
 npm install react-preloaders2 --save
+npm install react-favicon --save
 
 ### https://www.npmjs.com/package/reactjs-popup
 npm install reactjs-popup --save
