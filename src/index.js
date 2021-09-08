@@ -10,7 +10,7 @@ import favicon from './components/logo/'
 
 ReactDOM.render(
   <BrowserRouter>
-    <Favicon src={favicon} />
+    <Favicon url={favicon} />
     <App />
   </BrowserRouter>,
   document.getElementById('root')
