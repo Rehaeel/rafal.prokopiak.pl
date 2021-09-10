@@ -14,7 +14,7 @@ export default class Realizations extends React.Component {
     }
 
     readMore() {
-        this.setState({ height: 1500, opacity: 0, display: 'none' })
+        this.setState({ height: `fit-content`, opacity: 0, display: 'none' })
     }
 
 
