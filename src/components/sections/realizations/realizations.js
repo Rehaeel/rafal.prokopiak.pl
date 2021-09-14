@@ -6,7 +6,7 @@ export default class Realizations extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            height: 700,
+            maxHeight: 700,
             display: 'flex',
             opacity: 1
         }
@@ -14,7 +14,7 @@ export default class Realizations extends React.Component {
     }
 
     readMore() {
-        this.setState({ height: `fit-content`, opacity: 0, display: 'none' })
+        this.setState({ maxHeight: '2500px' })
     }
 
 
@@ -22,7 +22,7 @@ export default class Realizations extends React.Component {
     render() {
         return (
             <div>
-                <div className="realizations" id="realizations" style={{ height: this.state.height }} >
+                <div className="realizations" id="realizations" style={{ maxHeight: this.state.maxHeight }} >
                     <h1 className="headers">Realizacje</h1>
                     <RealizationView />
                 </div >
