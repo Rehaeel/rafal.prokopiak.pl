@@ -14,7 +14,7 @@ export default class Realizations extends React.Component {
     }
 
     readMore() {
-        this.setState({ maxHeight: '2500px' })
+        this.setState({ maxHeight: '400 0px' })
     }
 
 
