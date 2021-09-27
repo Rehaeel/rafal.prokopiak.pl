@@ -9,8 +9,13 @@ import FilmSet4 from './sections/img/plan-filmowy_4.webp';
 import FilmSet5 from './sections/img/plan-filmowy_5.webp';
 import FilmSet6 from './sections/img/plan-filmowy_6.webp';
 import FilmSet7 from './sections/img/plan-filmowy_7.webp';
+import ReactGA from 'react-ga';
 
 export default class AboutMeSite extends React.Component {
+    componentDidMount() {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+
     render() {
         return (
             <div>
