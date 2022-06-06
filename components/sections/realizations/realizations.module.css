@@ -1,0 +1,99 @@
+@-webkit-keyframes arrow {
+	0% {
+		bottom: -5px;
+		width: 20px;
+	}
+	50% {
+		bottom: -20px;
+		width: 0;
+	}
+	100% {
+		bottom: -5px;
+		width: 20px;
+	}
+}
+
+@keyframes arrow {
+	0% {
+		bottom: -5px;
+		width: 20px;
+	}
+	50% {
+		bottom: -20px;
+		width: 0;
+	}
+	100% {
+		bottom: -5px;
+		width: 20px;
+	}
+}
+
+.realizations {
+	position: relative;
+	display: grid;
+	overflow: hidden;
+	background: url('../../background/sharing-icons-bg.webp') fixed no-repeat;
+	background-size: cover;
+	grid-template-columns: repeat(3, 1fr);
+	-moz-column-gap: 3%;
+	column-gap: 3%;
+	width: 100%;
+	padding: var(--padding) 10%;
+	transition: all 2s ease-in;
+}
+
+.separator {
+	height: 100px;
+	background: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(255, 255, 255, 1) 50%
+	);
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	overflow: visible;
+	transform: translateY(-50px);
+}
+
+.separator > h2 {
+	background-color: transparent;
+}
+
+.separator > h2::after {
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='20px' width='20px'><text x='0' y='15' fill='black' font-size='20'>˅</text></svg>");
+	background-size: cover;
+	bottom: -15px;
+	left: 50%;
+	-webkit-animation: arrow 2s ease-in-out infinite;
+	animation: arrow 2s ease-in-out infinite;
+}
+.show-more {
+	cursor: pointer;
+}
+
+/************ TABLET ************/
+
+@media screen and (min-width: 768px) and (max-width: 980px) {
+	.realizations {
+		grid-template-columns: 1fr 1fr;
+		padding: 50px 5%;
+		row-gap: 0;
+		-moz-column-gap: 2%;
+		column-gap: 2%;
+	}
+}
+
+/************ MOBILE ************/
+
+@media screen and (max-width: 768px) {
+	.realizations {
+		grid-template-columns: 1fr;
+		padding: 50px 5%;
+		gap: 0;
+	}
+}
